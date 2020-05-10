@@ -43,6 +43,7 @@ hr {
 	border: 1px solid orange;
 	padding: 20px;
 	margin-bottom: 30px;
+	
 
 }
 
@@ -63,6 +64,6 @@ marquee {
 	width: 250px;
 	height: 98px;;
 }
-#imageofcorona img{width:500px;
+#imageofcorona img{width:40%
 height:300px;}
 
