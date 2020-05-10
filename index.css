@@ -9,9 +9,8 @@
 #navbar {
 	float: right;
 	background-color: black;
-	width: 65%;
+	width: 60%;
 	height: 100%;
-	
 }
 
 #navbar ul li:hover {
@@ -38,13 +37,12 @@ hr {
 }
 
 #homepage {
-	width: 100%;
+	width: 1200px;
 	background-color: aliceblue;
 	border: 1px solid orange;
 	padding: 20px;
 	margin-bottom: 30px;
-	
-
+	margin-left: 80px;
 }
 
 marquee {
@@ -56,13 +54,14 @@ marquee {
 
 #iconnav {
 	background-color: black;
-	width: 25%;
+	width: 30%;
 	float: left;
 }
 
 #iconnav img {
+	margin-top: 15px;
 	width: 250px;
-	height: 98px;;
+	height: 80px;;
 }
 #imageofcorona img{width:500px;
 height:300px;}
