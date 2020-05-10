@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#websection {
+	width: 1260px;
+	margin: auto;
+	background-color: #bbbfa8;
+	height: 500px;
+	border: 2px solid orange;
+}
+
+#html5icon {
+	width: 70px;
+	padding-right: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+#html5icon i {
+
+	font-size: 50px;
+
+	color: orange;
+	display: block;
+	float: left;
+}
+
+#specificid {
+	width: 350px;
+	animation-name: zoominmybox;
+	animation-duration: 2s;
+	padding: 20px;
+	border: 1px solid #cca634;
+	;
+	margin: 8px;
+	overflow: hidden;
+	background-color: #dfebee3d;
+	display: inline-block;
+	transition: all .3s;
+}
+
+#righticon h2 {
+	font-family: arial-black;
+	margin-bottom: 10px;
+}
+
+#righticon p {
+	line-height: 20px;
+}
+
+#righticon {
+	width: 260px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#specificid:hover {
+	background-color: brown;
+	color: aliceblue;
+
+	border-radius: 50px;
+	transform: translateY(-15px);
+	cursor: zoom-out;
+}
+
+#html5icon,
+#righticon {
+	display: inline-block;
+}
+
+@keyframes zoominmybox {
+	from {
+		transform: scale(.1)
+	}
+
+	to {
+		transform: scale(1)
+	}
+}
+
+span {
+	color: orange;
+	font-size: 35px;
+}
+
+img {
+	max-width: 100%;
+	box-shadow: 5px 5px 5px black;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(.8);
+	box-shadow: 0px 0px 6px brown;
+	border-radius: 180px;
+}
+
+#aboutusimg {
+	width: 380px;
+	border: 1px solid orange;
+	transition: all 10s;
+	margin: auto;
+}
+
+#aboutusimg:hover {
+	padding: 20px solid orange;
+	border: 5px solid orange;
+	background-color: skyblue;
+}
+
+#aboutus {
+	width: 1260px;
+	margin: auto;
+	background-color: #ececec;
+	height: 500px;
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+hr {
+	height: 1px;
+	background-color: orange;
+	border: 2px solid black;
+	border-style: dotted;
+}
+
+hr:hover {
+	position: fixed;
+}
+
+#amarname {
+	width: 700px;
+	float: right;
+	max-height: 100%;
+	margin-top: 30px;
+}
+
+#amarname p {
+	line-height: 25px;
+}
+
+#amarname,
+#aboutusimg {
+	display: inline-block;
+}
+
+#amarname p span {
+	font-size: 50px;
+	color: brown;
+	margin-bottom: 10px;
+}

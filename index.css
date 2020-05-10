@@ -1,0 +1,68 @@
+#navbar ul li {
+	display: inline-block;
+	background-color: brown;
+	padding: 15px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+#navbar {
+	float: right;
+	background-color: black;
+	width: 60%;
+	height: 100%;
+}
+
+#navbar ul li:hover {
+	background: green;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+p {
+	font-family: arial;
+}
+
+section {
+	margin-left: 50px;
+}
+
+hr {
+	height: 1px;
+	background-color: orange;
+	border: 2px solid black;
+	border-style: dotted;
+}
+
+#homepage {
+	width: 1200px;
+	background-color: aliceblue;
+	border: 1px solid orange;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+}
+
+marquee {
+	background-color: brown;
+	color: white;
+	font-weight: 400;
+	padding: 10px;
+}
+
+#iconnav {
+	background-color: black;
+	width: 30%;
+	float: left;
+}
+
+#iconnav img {
+	margin-top: 15px;
+	width: 250px;
+	height: 80px;;
+}
+#imageofcorona img{width:500px;
+height:300px;}
+
