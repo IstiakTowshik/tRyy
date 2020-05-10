@@ -9,7 +9,7 @@
 #navbar {
 	float: right;
 	background-color: black;
-	width: 60%;
+	width: 65%;
 	height: 100%;
 	
 }
@@ -38,12 +38,12 @@ hr {
 }
 
 #homepage {
-	width: 1160px;
+	width: 100%;
 	background-color: aliceblue;
 	border: 1px solid orange;
 	padding: 20px;
 	margin-bottom: 30px;
-	margin-left: 90px;
+
 }
 
 marquee {
@@ -55,14 +55,13 @@ marquee {
 
 #iconnav {
 	background-color: black;
-	width: 30%;
+	width: 25%;
 	float: left;
 }
 
 #iconnav img {
-	margin-top: 15px;
 	width: 250px;
-	height: 80px;;
+	height: 98px;;
 }
 #imageofcorona img{width:500px;
 height:300px;}
