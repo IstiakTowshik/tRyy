@@ -29,7 +29,7 @@ img:hover {
 
 #aboutusimg:hover {
 	padding: 20px solid brown;
-box-shadow: 10px 10px 50px solid brown;
+box-shadow: 10px 10px 50px solid #978a7396;
 	background-color: orange;
 }
 
