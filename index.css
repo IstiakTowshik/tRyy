@@ -11,6 +11,7 @@
 	background-color: black;
 	width: 60%;
 	height: 100%;
+	border:2px solid orange;
 }
 
 #navbar ul li:hover {
@@ -37,12 +38,12 @@ hr {
 }
 
 #homepage {
-	width: 1200px;
+	width: 1160px;
 	background-color: aliceblue;
 	border: 1px solid orange;
 	padding: 20px;
 	margin-bottom: 30px;
-	margin-left: 80px;
+	margin-left: 90px;
 }
 
 marquee {
