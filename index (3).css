@@ -1,45 +1,33 @@
-h1 {
-	text-align: center;
-	font-size: 35px;
+#navbar ul li {
+	display: inline-block;
+	background-color: brown;
+	padding: 15px;
+	margin: 10px;
+	transition: all 1s;
 }
 
-span {
-	color: orange;
-	font-size: 35px;
+#navbar {
+	float: right;
+	background-color: black;
+	width: 60%;
+	height: 100%;
+	
 }
 
-img {
-	max-width: 100%;
-	box-shadow: 5px 5px 5px black;
-	transition: all .3s;
+#navbar ul li:hover {
+	background: green;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px black;
 }
 
-img:hover {
-	transform: scale(.8);
-	box-shadow: 0px 0px 6px brown;
-	border-radius: 180px;
+p {
+	font-family: arial;
 }
 
-#aboutusimg {
-	width: 380px;
-	border: 1px solid brown;
-	transition: all .3s;
-	margin: auto;
-}
-
-#aboutusimg:hover {
-	padding: 20px solid brown;
-box-shadow: 10px 10px 50px solid brown;
-	background-color: #978a7396;
-}
-
-#aboutus {
-	width: 1260px;
-	margin: auto;
-	background-color: #ececec;
-	height: 500px;
-	border: 2px solid orange;
-	padding: 10px;
+section {
+	margin-left: 50px;
 }
 
 hr {
@@ -49,28 +37,36 @@ hr {
 	border-style: dotted;
 }
 
-hr:hover {
-	position: fixed;
+#homepage {
+	width: 1160px;
+	background-color: aliceblue;
+	border: 1px solid orange;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 90px;
 }
 
-#amarname {
-	width: 700px;
-	float: right;
-	max-height: 100%;
-	margin-top: 30px;
+marquee {
+	background-color: brown;
+	color: white;
+	font-weight: 400;
+	padding: 12px;
+	border-radius: 12px;
+
+
 }
 
-#amarname p {
-	line-height: 25px;
+#iconnav {
+	background-color: black;
+	width: 30%;
+	float: left;
 }
 
-#amarname,
-#aboutusimg {
-	display: inline-block;
+#iconnav img {
+	margin-top: 15px;
+	width: 250px;
+	height: 80px;;
 }
+#imageofcorona img{width:500px;
+height:300px;}
 
-#amarname p span {
-	font-size: 50px;
-	color: orangered;
-	margin-bottom: 10px;
-}
